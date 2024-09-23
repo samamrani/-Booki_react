@@ -1,0 +1,558 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 6%;
+  height: 6%;
+  padding-top: 20px;
+}
+
+img {
+  object-fit: cover;
+}
+
+header nav {
+  display: flex;
+}
+header nav a {
+  padding: 20px;
+  display: block;
+  border-top: solid 2px white;
+  font-size: 18px;
+}
+header nav a:hover {
+  color: #0065fc;
+  border-top: solid 2px #0065fc;
+}
+/* main*/
+.section-recherche {
+  padding-top: 20px;
+}
+.titre p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.fa-location-dot {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  cursor: pointer;
+}
+.input {
+  border-width: 250px;
+  border: none;
+  border-top: solid 1px whitesmoke;
+  border-bottom: solid 1px whitesmoke;
+  width: 200px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button {
+  padding: 20px 20px;
+  background-color: #0065fc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: bold;
+}
+.rechercher {
+  display: none;
+} 
+.filtres {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 40px 0px 20px 0px;
+}
+.filter-button {
+  border: solid 3px #f2f2f2;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.filter-button:hover {
+  color: #0065fc;
+  background-color: aliceblue;
+}
+.filtre-content i {
+  color: #0065fc;
+  padding: 5px;
+}
+.filtres .filtre-content a {
+  color: #000;
+}
+.cercle {
+  padding: 20px 0px 35px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cercle p {
+  font-size: 16px;
+}
+.cercle i {
+  color: #0065fc;
+  border-radius: 100%;
+  border: solid 2px lightgray;
+  padding: 6px 11px 6px 11px;
+  margin-right: 12px;
+}
+/*cadre-hebergement-populaire*/
+.grise {
+  color: #d8d6d6;
+}
+.bleu {
+  color: #0065fc;
+  padding-bottom: 10px;
+}
+.cadre-hebergement-populaire {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+/*dans la secion cadre-hebergement*/
+.cadre-hebergement {
+  border-radius: 20px;
+  background: #f2f2f2;
+  width: 65%;
+  padding: 30px;
+}
+.cadre-hebergement .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.cadre-hebergement .content .card {
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0 1px 2px 1px rgb(207, 201, 201);
+}
+.cadre-hebergement .content .card img {
+  height: 124px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cadre-hebergement .cadre-star {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  gap: 10px;
+}
+.cadre-hebergement .star {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cadre-hebergement .titre-content .content .cadre:hover {
+  border-width: 10px;
+}
+.cadre-hebergement .card:hover {
+  transform: scale(1.03);
+}
+.titre-content h2 {
+  margin-bottom: 20px;
+}
+.titre-content .fa-chart-line {
+  color: #0065fc;
+}
+/*dans la section cadre-populaire*/
+
+.cadre-populaire .cadre-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cadre-populaire {
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #f2f2f2;
+  padding: 30px;
+}
+.cadre-content {
+  display: flex;
+  box-shadow: 0 1px 2px 1px rgb(207, 201, 201);
+  background: #fff;
+  padding: 5px;
+  gap: 5px;
+  border-radius: 20px;
+}
+.line {
+  color: #0065fc;
+  width: 18px;
+  height: 16px;
+  margin-top: 20px;
+}
+.cadre-i h3 {
+  line-height: normal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.cadre-i p {
+  font-size: 16px;
+}
+.populaire {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.populaire .card-img img {
+  height: 144px;
+  width: 123px;
+  border-radius: 20px 0px 0px 20px;
+}
+.card-populaire .cadre-star h3 {
+  padding-left: 10px;
+}
+.cadre-star h3 {
+  font-size: 16px;
+}
+.cadre-star p {
+  font-size: 14px;
+}
+.plus {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.cadre-populaire .plus .populaire .cadre-content:hover {
+  border-width: 100px;
+}
+.cadre-populaire .cadre-content:hover {
+  transform: scale(1.03);
+}
+/*section dans activite*/
+
+.activites_marseille {
+  padding-top: 30px;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+.activites_marseille .activite .activite-card img {
+  width: 100%;
+  height: 380px;
+  border-radius: 20px 20px 0px 0px;
+}
+.activite {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: row;
+  width: 100%;
+}
+.activite-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  box-shadow: 0 1px 2px 1px rgb(207, 201, 201);
+  border-radius: 20px;
+}
+.activite-card .activite-titre {
+  padding: 15px 0px 20px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.activites .activite-card:hover {
+  border-width: 10px;
+}
+.activite-card:hover {
+  transform: scale(1.03);
+}
+/* footer */
+footer nav {
+  display: flex;
+}
+.footer-titre {
+  font-weight: bold;
+}
+footer {
+  background: #f2f2f2;
+  padding: 20px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
+}
+.footer-content a {
+  padding: 0;
+}
+/******************************/
+/*Media Queries*/
+/* pour les tablettes  */
+@media (max-width: 1024px) {
+  header img {
+    margin-left: 20px;
+  }
+  .section-recherche {
+    padding: 20px;
+  }
+  .filtres {
+    display: block;
+    align-items: normal;
+  }
+  .filtre {
+    margin-bottom: 20px;
+  }
+  .filtre-content a {
+    margin: 0;
+  }
+  .filtre-content {
+    display: flex;
+    gap: 20px;
+  }
+  .cadre-hebergement-populaire {
+    display: block;
+    width: auto;
+    padding: 20px;
+  }
+  .cadre-hebergement {
+    width: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  .cadre-hebergement .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .cadre-star {
+    padding-top: 30px;
+  }
+  .cadre-star h3 {
+    font-size: 16px;
+  }
+  .cadre-star p {
+    font-size: 14px;
+  }
+
+  .cadre-populaire {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .plus-content {
+    flex-grow: 1; /* Permet au contenu de "plus-content" de prendre autant d'espace que possible à gauche */
+  }
+  h2 {
+    margin: 0; /* Supprime la marge par défaut du titre */
+  }
+
+  .populaire {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .populaire .card-img img {
+    border-radius: 20px 0px 0px 20px;
+  }
+  .populaire .cadre-content {
+    flex: 1;
+  }
+
+  .activites_marseille .activite .activite-card img {
+    height: 200px;
+
+    width: 100%;
+  }
+  .activite-card .activite-titre {
+    padding: 15px 0px 10px 20px;
+    font-weight: bold;
+  }
+}
+/**********************************/
+/* pour les téléphones portables*/
+@media (max-width: 767px) {
+  /*header*/
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    width: 14%;
+    height: 14%;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav a {
+    border-top: none;
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: solid 2px white;
+  }
+  header nav a:hover {
+    color: #0065fc;
+    border-bottom: solid 2px #0065fc;
+    border-top: none;
+  }
+  .titre h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: normal;
+  }
+  .button {
+    display: none;
+  }
+  .input {
+    border: none;
+    padding: 20px;
+    border-top: solid 1px whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    width: 220px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+  }
+  .fa-location-dot {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .rechercher {
+    display: contents;
+  }
+  .fa-magnifying-glass {
+    background-color: #0065fc;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .filtres {
+    padding: unset;
+    display: contents;
+  }
+  .filtre {
+    padding-top: 20px;
+  }
+  .filtre-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .filtres a {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .cercle i {
+    color: #0065fc;
+    border-radius: 100%;
+    border: solid 2px lightgray;
+    padding: 6px 14px 6px 14px;
+  }
+
+  .cadre-hebergement-populaire {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    padding: 0;
+  }
+  .cadre-hebergement .content {
+    display: none;
+    flex-direction: column;
+    display: flex;
+  }
+  .cadre-hebergement {
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: none;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .cadre-star {
+    padding: 0;
+  }
+  .cadre-star h3 {
+    margin-bottom: 5px;
+  }
+  /*dans la section cadre-populaire*/
+  .cadre-populaire .populaire {
+    flex-direction: column-reverse;
+  }
+
+  .cadre-populaire {
+    border-radius: 0;
+
+    padding: 30px;
+  }
+
+  .populaire .cadre-content {
+    flex: 1;
+  }
+  .puls {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activite-card {
+    padding: 0;
+  }
+  .activites_marseille .activite .activite-card img {
+    height: 141px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .activite {
+    display: flex;
+    flex-direction: column;
+  }
+  .activite-card {
+    width: 100%;
+  }
+  footer nav {
+    flex-direction: column;
+  }
+  .footer-titre {
+    padding-top: 30px;
+  }
+
+
+  
+}

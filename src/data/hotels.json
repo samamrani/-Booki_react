@@ -1,0 +1,47 @@
+{
+    "hotels": [
+      { 
+        "src": "hotel-1.jpg", 
+        "alt": "hotel du port", 
+        "name": "Hotel du port", 
+        "price": "Nuit à partir de 5€", 
+        "stars": 4 
+      },
+      { 
+        "src": "hotel-2.jpg", 
+        "alt": "hotel chez Amina", 
+        "name": "Hotel Chez Amina", 
+        "price": "Nuit à partir de 96€", 
+        "stars": 4 
+      },
+      { 
+        "src": "hotel-3.jpg", 
+        "alt": "hotel chez mouettes", 
+        "name": "Hotel Les mouettes", 
+        "price": "Nuit à partir de 76€", 
+        "stars": 4 
+      },
+      { 
+        "src": "hotel-4.jpg", 
+        "alt": "hotel de la mer", 
+        "name": "Hotel de la mer", 
+        "price": "Nuit à partir de 46€", 
+        "stars": 4 
+      },
+      { 
+        "src": "hotel-5.jpg", 
+        "alt": "auberge la canebiere", 
+        "name": "Auberge La Canebiere", 
+        "price": "Nuit à partir de 25€", 
+        "stars": 4 
+      },
+      { 
+        "src": "hotel-6.jpg", 
+        "alt": "auberge le panier", 
+        "name": "Auberge Le Panier", 
+        "price": "Nuit à partir de 23€", 
+        "stars": 4 
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "populaires":[
+        {"src": "hotel-7.jpg",
+         "title": "Auberge la Canebiére",
+          "price": "Nuit à partir de 25€",
+           "stars": 4  },
+
+        {"src": "hotel-8.jpg",
+         "title": "Chambres d'hôtes Au coeur de l'eau",
+          "price": "Nuit à partir de 71€",
+           "stars": 4  },
+
+        {"src": "hotel-9.jpg",
+         "title": "Hotel Bleu et Blanc",
+          "price": "Nuit à partir de 68€",
+           "stars": 4  }
+    ]
+}
