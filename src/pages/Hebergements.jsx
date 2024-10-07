@@ -16,11 +16,14 @@ function Hebergements() {
           <FormRecherche />
           <Filter /> 
         </section>
+
         <div id="hebergements" className="cadre-hebergement-populaire">
           <CadreHebergement />
           <CadrePopulaire />
         </div>
+
           <Activite />
+          
        </main>
     );
 }
